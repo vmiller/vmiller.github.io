@@ -6,9 +6,9 @@
 # [Optional] Path to the site logo image relative to assets/ folder. Displayed before the Site Title in the header. Minimum size: 64x64px.
 # logo = "/imgs/logo.png"
 # Site description.
-description = "A Hugo Theme"
+description = "Some things I've learned along the way"
 # [Optional] Copyright owner name.
-copyright = ""
+copyright = "Vaughn Miller"
 # Whether to optimize images per view port.
 optimizeImg = true
 # Whether to enable copy button in code blocks.
