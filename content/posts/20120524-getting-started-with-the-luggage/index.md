@@ -36,4 +36,4 @@ Now, we just need to run a command to configure luggage for use.  Change into th
 
 ![Make Bootstrap](Make.png "Image Showing make boostrap_files command")
 
-Now Luggage is ready for use and we can start packaging, go [here]({{< ref "packaging-a-drag-and-drop-application" >}}) for the next installment of the series which demonstrates how to package a drag and drop style application.
+Now Luggage is ready for use and we can start packaging, go [here]({{< ref "20120814-packaging-a-drag-and-drop-application" >}}) for the next installment of the series which demonstrates how to package a drag and drop style application.

@@ -5,7 +5,7 @@ draft: false
 tags: [macOS, Luggage, Packaging]
 ---
 
-In a previous [post]({{< ref "getting-started-with-the-luggage" >}}), I showed how to get started by getting Luggage setup.  In this post we will create a simple package based on a .app bundle.
+In a previous [post]({{< ref "20120524-getting-started-with-the-luggage" >}}), I showed how to get started by getting Luggage setup.  In this post we will create a simple package based on a .app bundle.
 
 Drag and drop applications are really user friendly to install, the user simply needs to drag them to the Applications folder.  They are not as nice, however, for the system administrator who wishes to deploy the application via some automated tool.  In some cases it is desirable to repackage these application into an installer package.  Fortunately this is easy to do with the Luggage.
 

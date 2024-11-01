@@ -5,7 +5,7 @@ draft: false
 tags: [macOS, Luggage, Packaging]
 ---
 
-Previously, I showed how to [install]({{< ref "getting-started-with-the-luggage" >}}) Luggage, and how to [package a drag and drop app]({{< ref "packaging-a-drag-and-drop-application" >}}).  In this installment, we will look at how to package up a LaunchAgent script.
+Previously, I showed how to [install]({{< ref "20120524-getting-started-with-the-luggage" >}}) Luggage, and how to [package a drag and drop app]({{< ref "20120814-packaging-a-drag-and-drop-application" >}}).  In this installment, we will look at how to package up a LaunchAgent script.
 
 We will work with a simple script to mount a couple of file shares when a user logs into their computer.  To set it up as a LaunchAgent, we need two pieces.  First, the script itself (connectshares.sh) needs to be copied to /Library/Scripts/Myorg and everyone should have read and execute permissions.  Second, a plist (com.myorg.connectshares.plist) file which controls the execution of the script needs to be copied to /Library/LaunchAgents and and everyone should have read permissions.
 

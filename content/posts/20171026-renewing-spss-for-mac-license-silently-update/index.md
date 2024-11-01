@@ -5,7 +5,7 @@ draft: false
 tags: [SPSS, macOS]
 ---
 
-I previously wrote about a [script to license SPSS for Mac silently]({{< ref "renewing-spss-for-mac-license-silently" >}} "Link").  In version 25 of SPSS Statistics, the path to the bundled Java has changed. It now no longer has the version of the JRE in the path. As a result the script now looks like this :
+I previously wrote about a [script to license SPSS for Mac silently]({{< ref "20150926-renewing-spss-for-mac-license-silently" >}} "Link").  In version 25 of SPSS Statistics, the path to the bundled Java has changed. It now no longer has the version of the JRE in the path. As a result the script now looks like this :
 
 ```
 #!/bin/bash -x
