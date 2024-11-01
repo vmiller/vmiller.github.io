@@ -31,3 +31,15 @@ name = "github"
 pre = "github"
 url = "https://github.com/vmiller"
 weight = 4
+
+[[main]]
+ name = "linkedin"
+ pre = "linkedin"
+ url = "https://www.linkedin.com/in/vaughn-miller-a4799742"
+ weight = 5
+
+ [[main]]
+ name = "mastodon"
+ pre = "mastodon"
+ url = "https://hachyderm.io/@vmiller"
+ weight = 6
