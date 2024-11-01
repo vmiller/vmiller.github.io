@@ -43,3 +43,6 @@ buildFuture = true
 # [services]
 #   [services.googleAnalytics]
 #     ID = 'G-MEASUREMENT_ID'
+
+[permalinks]
+    posts = '/:year/:month/:day/:title'
