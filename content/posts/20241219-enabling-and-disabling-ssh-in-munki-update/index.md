@@ -4,7 +4,7 @@ date: 2024-12-19T08:00:00-05:00
 draft: false
 tags: [munki, macOS]
 ---
-I had previously posted a munki nopkg script to enable SSH using `/usr/sbin/systemsetup`  This stopped working on newer versions of macOS at some point and I implemented a new method, but never got around to posting it.  The new method simply loads the launch daemon to enable SSH.
+I had previously [posted]({{< ref "20180227-enabling-and-disabling-ssh-using-munki" >}}) a munki nopkg script to enable SSH using `/usr/sbin/systemsetup`  This stopped working on newer versions of macOS at some point and I implemented a new method, but never got around to posting it.  The new method simply loads the launch daemon to enable SSH.
 
 The install_check script 
 ```
