@@ -7,6 +7,8 @@ tags: [Vectorworks, macOS]
 I was happy to see Vectorworks shipping a package installer.  I did run into issues getting it to work as documented [here](https://forum.vectorworks.net/index.php?/articles.html/articles/how-to/installation/command-line-installation-of-vectorworks-2026-r945/)
 
 
+## The Testing
+
 I created a vw2026.plist alongside the installer package and here is what I observed: 
 
 When no user is specified in the vw2026.plist file, no serial number preference is written anywhere.  
